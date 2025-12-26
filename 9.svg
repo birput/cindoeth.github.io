@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="gradient">
       <stop offset="0%" stop-color="hsl(218,100%,30%)"/>
-      <stop offset="100%" stop-color="hsl(218,100%,10%)"/>
+      <stop offset="100%" stop-color="#0052FF"/>
     </linearGradient>
     <clipPath id="clip">
       <path d="M0,0L141.4213694,141.4213428L282.8427388,0A200,200,0,0,0,0,0Z"/>
@@ -52,7 +52,8 @@
       </circle>
     </g>
   </defs>
-  <rect width="500" height="500" fill="hsl(218,100%,10%)"/>
+  <!-- Latar belakang diubah menjadi biru murni #0052FF -->
+  <rect width="500" height="500" fill="#0052FF"/>
   <g id="kaleidoscopeTile" transform="translate(109,109)">
     <circle cx="141.4213694" cy="141.4213428" r="200" fill="hsl(218,100%,30%)"/>
     <use href="#tile" transform="rotate(0.0,141.4213694,141.4213428)"/>
